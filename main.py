@@ -10,3 +10,5 @@ plt.xlabel("Year")
 plt.ylabel("Number of Movies")
 
 plt.title("Meryl Streep's Long Movie Career")
+
+plt.savefig("Meryls_Movies.png")
