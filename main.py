@@ -11,4 +11,9 @@ plt.ylabel("Number of Movies")
 
 plt.title("Meryl Streep's Long Movie Career")
 
+#Covers the range of years, seperated by 4
+plt.xticks(range(1976, 2020, 4))
+#0 to the upper limit of movies she was in per year, seperated by 2
+plt.yticks(range(0, 10, 2))
+
 plt.savefig("Meryls_Movies.png")
