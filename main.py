@@ -8,3 +8,5 @@ plt.hist(movie_year, bins, hisstype="bar")
 
 plt.xlabel("Year")
 plt.ylabel("Number of Movies")
+
+plt.title("Meryl Streep's Long Movie Career")
