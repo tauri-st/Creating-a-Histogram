@@ -4,7 +4,7 @@ movie_year = [2019,2019,2018,2018,2017,2016,2016,2016,2015,2015,2014,2014,2014,2
 
 bins =[1976,1985, 1986,1997, 1998,2007, 2008,2019]
 
-plt.hist(movie_year, bins, hisstype="bar")
+plt.hist(movie_year, bins, histtype="bar")
 
 plt.xlabel("Year")
 plt.ylabel("Number of Movies")
